@@ -1,4 +1,4 @@
-# Sane-Web-API-python-
+# Sane-Web-API
 Sane Web API - Scanner Access Now Easy
 
 ## What is this API?

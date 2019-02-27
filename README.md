@@ -13,6 +13,7 @@ POST:
 /api/v0.1/scan/start
 /api/v0.1/scan/status
 /api/v0.1/scan/cancel
+
 /api/v0.1/db/reset
 ```
 

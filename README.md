@@ -2,7 +2,7 @@
 Sane Web API - Scanner Access Now Easy
 
 ## What is this API?
-With this API you can access your scanners via http requests.
+With this API you can access your (sane) scanners via http requests.
 
 ## How to use it
 
@@ -24,6 +24,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+
+Linux (tested with Ubuntu 18.04 Server)__
+Sane__
+Python3__
 
 ```
 Give examples

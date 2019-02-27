@@ -16,9 +16,6 @@ POST:
 /api/db/reset
 ```
 
-a__
-b__
-c
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -27,9 +24,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-Linux (tested with Ubuntu 18.04 Server)__
-Sane__
-Python3__
+Linux (tested with Ubuntu 18.04 Server) <br />
+Sane [Sane Pages](https://www.sane-project.org//) <br />
+Python3 <br />
 
 ```
 Give examples

@@ -35,21 +35,26 @@ Return: DeviceName, Manufacturer, Model, Description, scanInitiationURL
 ```
 Type: Post
 Arguments: apiKey, DeviceName
-Return Json: 
+Return: DeviceName, Manufacturer, Model, Description, scanUUID
  - Return Example: 
       {
+          "0": {"device": ["test:0", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'"]}, 
+          "1": {"device": ["test:1", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'"]}, 
       }
+   Explanation: Number: {"device": [DeviceName, Manufacturer, Model, Description, scanInitiationURL, scanInitiationURL]}
 ```
 
 #### /api/v0.1/scan/status
 ```
 Type: Post
 Arguments: apiKey, DeviceName
-Return Json: devices
+Return: DeviceName, Manufacturer, Model, Description, scanUUID
  - Return Example: 
       {
-
+          "0": {"device": ["test:0", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'"]}, 
+          "1": {"device": ["test:1", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'"]}, 
       }
+   Explanation: Number: {"device": [DeviceName, Manufacturer, Model, Description, scanInitiationURL, scanInitiationURL]}
 ```
 
 ## Getting Started

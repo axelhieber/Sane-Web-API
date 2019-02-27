@@ -2,11 +2,18 @@
 Sane Web API - Scanner Access Now Easy
 
 ## What is this API?
-
+With this API you can access your scanners via http requests.
 
 ## How to use it
 
 ### API Documentation
+POST:
+/api/scan/start
+/api/scan/get
+/api/scan/status
+/api/scan/cancel
+/api/db/reset
+
 
 
 ## Getting Started

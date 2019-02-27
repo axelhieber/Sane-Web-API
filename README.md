@@ -25,7 +25,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 Linux (tested with Ubuntu 18.04 Server) <br />
-Sane [Sane Pages](https://www.sane-project.org//) <br />
+[Sane](https://www.sane-project.org//) <br />
 Python3 <br />
 
 ```
@@ -60,7 +60,7 @@ Add additional notes about how to deploy this on a live system
 
 ## Authors
 
-* **Axel Hieber** - *Initial work* - [PurpleBooth](https://github.com/axelhieber)
+* **Axel Hieber** - *Initial work* - [Axel Hieber](https://github.com/axelhieber)
 
 
 ## License

@@ -9,11 +9,11 @@ With this API you can access your (sane) scanners via http requests.
 ### API Documentation
 POST:
 ```
-/api/scan/devices
-/api/scan/start
-/api/scan/status
-/api/scan/cancel
-/api/db/reset
+/api/v0.1/scan/devices
+/api/v0.1/scan/start
+/api/v0.1/scan/status
+/api/v0.1/scan/cancel
+/api/v0.1/db/reset
 ```
 
 ## Getting Started

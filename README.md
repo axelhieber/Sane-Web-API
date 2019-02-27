@@ -7,7 +7,7 @@ With this API you can access your (sane) scanners via http requests.
 ## How to use it
 
 ### API Documentation
-POST:
+#### Overview
 ```
 /api/v0.1/scan/devices
 /api/v0.1/scan/start
@@ -21,11 +21,32 @@ POST:
 ```
 Type: Post
 Arguments: apiKey
-Return Json: devices
+Return Json: devices=>(Number: {"device": [Device Name, Manufacturer, Model, Description, scan initiation URL, scan initiation URL]}, )
  - Return Example: 
-       {
+      {
           "0": {"device": ["test:0", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'"]}, 
           "1": {"device": ["test:1", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'"]}, 
+      }
+```
+
+#### /api/v0.1/scan/start
+```
+Type: Post
+Arguments: apiKey
+Return Json: 
+ - Return Example: 
+      {
+      }
+```
+
+#### /api/v0.1/scan/status
+```
+Type: Post
+Arguments: apiKey, scannername
+Return Json: devices
+ - Return Example: 
+      {
+
       }
 ```
 

@@ -47,7 +47,7 @@ Return: DeviceName, Manufacturer, Model, Description, scanUUID
 #### /api/v0.1/scan/status
 ```
 Type: Post
-Arguments: apiKey, DeviceName
+Arguments: apiKey, scanUUID
 Return: DeviceName, Manufacturer, Model, Description, scanUUID
  - Return Example: 
       {
@@ -106,7 +106,7 @@ Add additional notes about how to deploy this on a live system
 
 ## License
 
-not determined yet (ask if you want to use it)
+not determined yet (just ask if you want to use it)
 
 ## Acknowledgments
 

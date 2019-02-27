@@ -8,12 +8,13 @@ With this API you can access your scanners via http requests.
 
 ### API Documentation
 POST:
+```
 /api/scan/start
 /api/scan/get
 /api/scan/status
 /api/scan/cancel
 /api/db/reset
-
+```
 
 
 ## Getting Started

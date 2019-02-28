@@ -24,10 +24,10 @@ Arguments: apiKey
 Return: DeviceName, Manufacturer, Model, Description, scanInitiationURL
  - Return Example: 
       {
-          "0": {"device": ["test:0", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'"]}, 
-          "1": {"device": ["test:1", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'"]}, 
+          "0": {"device": ["test:0", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:0'", "reserved"]}, 
+          "1": {"device": ["test:1", "Noname", "frontend-tester", "virtual device", "http://127.0.0.1:5000/scan/startScan?scanner='test:1'", "reserved"]}, 
       }
-   Explanation: Number: {"device": [DeviceName, Manufacturer, Model, Description, scanInitiationURL, scanInitiationURL]}
+   Explanation: Number: {"device": [DeviceName, Manufacturer, Model, Description, scanInitiationURL, reserved]}
 
 ```
 

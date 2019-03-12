@@ -10,7 +10,7 @@ With this API you can access your (sane) scanners via http requests.
 ### API Documentation
 #### Overview
 ```
-/api/v0.1/scan/devices
+/api/v0.1/scan/devices ~~ A ~~
 /api/v0.1/scan/start
 /api/v0.1/scan/status
 /api/v0.1/scan/cancel

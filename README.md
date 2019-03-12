@@ -64,7 +64,7 @@ Linux (tested with Ubuntu 18.04 Server) <br />
 Python3 <br />
 
 ```
-Give examples
+
 ```
 
 ### Installing

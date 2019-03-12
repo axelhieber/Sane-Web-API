@@ -71,7 +71,6 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
 
 ```
 py -m pip install gevent
@@ -80,15 +79,8 @@ py -m pip install flask_restful
 py -m pip install numpy
 
 install https://github.com/python-pillow/Sane
-
-Give the example
 ```
 
-And repeat
-
-```
-until finished
-```
 
 End with an example of getting some data out of the system or using it for a little demo
 

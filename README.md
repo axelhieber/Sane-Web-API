@@ -1,5 +1,6 @@
 # Sane-Web-API
 Sane Web API - Scanner Access Now Easy
+Disclaimer: work in progress - not finish or tested
 
 ## What is this API?
 With this API you can access your (sane) scanners via http requests.
